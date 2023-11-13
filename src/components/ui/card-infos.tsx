@@ -5,11 +5,11 @@ const CardInfos = ({srcImage, title,subTitle}: any) => {
         <div className='flex flex-col items-center gap-1 h-[170px] w-[170px]'>
             <Image 
               src={srcImage}
-              alt="felicidade"
+              alt="img"
               width={0}
               height={0}
               sizes="100vw"
-              className=" h-24 max-h-[100%] w-24 max-w-[100%] bg-[#212121] p-5 rounded-full"
+              className="h-28 w-28 bg-[#212121] p-5 rounded-full overflow-visible"
               style={{
                 objectFit: 'contain'
             }}
