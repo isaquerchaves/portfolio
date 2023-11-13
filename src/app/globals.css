@@ -101,4 +101,9 @@
   h6 {
     font-size: 1rem;
   }
+  @layer components {
+    .service {
+      @apply flex flex-col items-start bg-[#212121] p-7 border-b-4 border-solid border-green-500 w-[350px] h-[240px];
+    }
+  }
 }

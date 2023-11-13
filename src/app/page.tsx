@@ -1,5 +1,6 @@
 import CardInfos from '@/components/ui/card-infos'
 import CardProjects from '@/components/ui/card-projects'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -82,6 +83,41 @@ export default function Home() {
             title="Lorem Ipsum"
             subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry." l
           />
+        </div>
+      </section>
+      <section className='px-28 pt-8 flex flex-col items-center gap-10'>
+        <h1>Serviços</h1>
+        <div className='flex flex-row justify-around gap-10'>
+          <div className='service'>
+            <Image
+              src="/criacao-sites.svg"
+              width={56}
+              height={56}
+              alt=''
+              className='py-3'
+            />
+            <p className=' font-semibold text-3xl leading-10 mr-36 opacity-70'>Criação <br />de sites</p>
+          </div>
+          <div className='service'>
+            <Image
+              src="/figma.svg"
+              width={56}
+              height={56}
+              alt=''
+              className='py-3'
+            />
+            <p className=' font-semibold text-3xl leading-10 mr-36 opacity-70'>UX <br />Designer</p>
+          </div>
+          <div className='service'>
+            <Image
+              src="/smartphone.svg"
+              width={56}
+              height={56}
+              alt=''
+              className='py-3'
+            />
+            <p className=' font-semibold text-3xl leading-10 mr-36 opacity-70'>Sites <br />Responsivos</p>
+          </div>
         </div>
       </section>
     </div>
