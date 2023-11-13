@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const CardProjects = ({ srcImage, alt, title, subTitle }: any) => {
     return (
-        <div className='flex flex-col items-center gap-1 bg-[#212121] p-4 h-[300px] w-[350px]'>
+        <div className='flex flex-col items-center gap-1 bg-[#212121] p-4 h-[300px] w-[400px]'>
             <Image
                 src={srcImage}
                 alt={alt}
