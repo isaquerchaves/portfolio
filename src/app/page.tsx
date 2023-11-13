@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         <img src="./isaque-img.png" alt="" className='' />
       </section>
-      <section className='px-28 pt-8 flex flex-col items-center gap-10'>
+      <section id='sobre-mim' className='px-28 pt-8 flex flex-col items-center gap-10'>
         <h1>Sobre mim</h1>
         <p className='opacity-70 text-xl text-center px-20 leading-8'>
           Meu nome é Isaque Ramos Chaves, sou formado em Sistemas de Informação pela Facimp Wyden e atualmente atuo como analista de dados na Escola Conquer. No entanto, estou direcionando minha carreira para o campo do Front-End. Possuo experiência em HTML, CSS, JavaScript, TypeScript, React, Next e Tailwind. Estou ansioso para continuar a minha jornada no universo do Front-End, contribuindo com minha paixão pelo design e usabilidade em projetos digitais.
@@ -44,14 +44,14 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className='px-28 pt-8 flex flex-col items-center gap-10'>
+      <section id='projetos' className='px-28 pt-8 flex flex-col items-center gap-10'>
         <h1>Projetos</h1>
         <div className='flex flex-wrap items-center justify-center gap-7'>
           <CardProjects
             srcImage='/app-ecommerce.png'
             alt=''
             title='App de E-Commerce'
-            subTitle='Tecnilogias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL, Tailwind e Stripe'
+            subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL, Tailwind e Stripe'
           />
           <CardProjects
             srcImage="/em-breve.jpg"
@@ -85,7 +85,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className='px-28 pt-20 flex flex-col items-center gap-10'>
+      <section id='servicos' className='px-28 pt-20 flex flex-col items-center gap-10'>
         <h1>Serviços</h1>
         <div className='flex flex-row justify-around gap-10'>
           <div className='service'>
@@ -120,7 +120,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='px-28 py-20 flex flex-col items-center gap-10'>
+      <section id='minhas-skills' className='px-28 py-20 flex flex-col items-center gap-10'>
         <h1>Minhas Skills</h1>
         <div className='flex flex-row flex-wrap justify-between gap-10'>
           <div className='flex justify-center w-[150px] y-[150px] p-5 bg-[#212121] border border-[#333333]'>
