@@ -85,7 +85,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className='px-28 pt-8 flex flex-col items-center gap-10'>
+      <section className='px-28 pt-20 flex flex-col items-center gap-10'>
         <h1>Serviços</h1>
         <div className='flex flex-row justify-around gap-10'>
           <div className='service'>
@@ -117,6 +117,59 @@ export default function Home() {
               className='py-3'
             />
             <p className=' font-semibold text-3xl leading-10 mr-36 opacity-70'>Sites <br />Responsivos</p>
+          </div>
+        </div>
+      </section>
+      <section className='px-28 py-20 flex flex-col items-center gap-10'>
+        <h1>Minhas Skills</h1>
+        <div className='flex flex-row flex-wrap justify-between gap-10'>
+          <div className='flex justify-center w-[150px] y-[150px] p-5 bg-[#212121] border border-[#333333]'>
+            <Image
+              src='/html.svg'
+              alt='HTML'
+              width={80}
+              height={80}
+            />
+          </div>
+          <div className='flex justify-center w-[150px] y-[150px] p-5 bg-[#212121] border border-[#333333]'>
+            <Image
+              src='/css.svg'
+              alt='CSS'
+              width={80}
+              height={80}
+            />
+          </div>
+          <div className='flex justify-center w-[150px] y-[150px] p-5 bg-[#212121] border border-[#333333]'>
+            <Image
+              src='/js.svg'
+              alt='JavaScript'
+              width={80}
+              height={80}
+            />
+          </div>
+          <div className='flex justify-center w-[150px] y-[150px] p-5 bg-[#212121] border border-[#333333]'>
+            <Image
+              src='/tailwind.svg'
+              alt='Tailwind'
+              width={80}
+              height={80}
+            />
+          </div>
+          <div className='flex justify-center w-[150px] y-[150px] p-5 bg-[#212121] border border-[#333333]'>
+            <Image
+              src='/react.svg'
+              alt='React'
+              width={80}
+              height={80}
+            />
+          </div>
+          <div className='flex justify-center w-[150px] y-[150px] p-5 bg-[#212121] border border-[#333333]'>
+            <Image
+              src='/Next.svg'
+              alt='Next'
+              width={80}
+              height={80}
+            />
           </div>
         </div>
       </section>
