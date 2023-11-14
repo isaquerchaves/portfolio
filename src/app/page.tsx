@@ -1,6 +1,7 @@
 import CardInfos from '@/components/ui/card-infos'
 import CardProjects from '@/components/ui/card-projects'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -55,12 +56,14 @@ export default function Home() {
       <section id='projetos' className='px-28 pt-8 flex flex-col items-center gap-10'>
         <h1>Projetos</h1>
         <div className='flex flex-wrap items-center justify-center gap-7 xl:w-[1410px]'>
-          <CardProjects
-            srcImage='/app-ecommerce.png'
-            alt=''
-            title='App de E-Commerce'
-            subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL, Tailwind e Stripe'
-          />
+          <Link href="https://github.com/isaquerchaves/IRC-Store" target="_blank" rel="noopener noreferrer">
+            <CardProjects
+              srcImage='/app-ecommerce.png'
+              alt=''
+              title='App de E-Commerce'
+              subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL, Tailwind e Stripe'
+            />
+          </Link>
           <CardProjects
             srcImage="/em-breve.jpg"
             alt="breve"
