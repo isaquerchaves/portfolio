@@ -61,7 +61,7 @@ export default function Home() {
               srcImage='/app-ecommerce.png'
               alt=''
               title='App de E-Commerce'
-              subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL, Tailwind e Stripe'
+              subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL e Tailwind'
             />
           </Link>
           <CardProjects
