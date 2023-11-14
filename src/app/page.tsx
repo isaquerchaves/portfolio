@@ -173,10 +173,10 @@ export default function Home() {
           </div>
           <div className='flex justify-center w-[150px] y-[150px] p-5 bg-[#212121] border border-[#333333]'>
             <Image
-              src='/Next.svg'
+              src='/next.png'
               alt='Next'
               width={80}
-              height={80}
+              height={48}
             />
           </div>
         </div>
