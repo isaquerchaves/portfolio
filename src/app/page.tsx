@@ -56,7 +56,7 @@ export default function Home() {
       <section id='projetos' className='px-28 pt-8 flex flex-col items-center gap-10'>
         <h1>Projetos</h1>
         <div className='flex flex-wrap items-center justify-center gap-7 xl:w-[1410px]'>
-          <Link href="https://github.com/isaquerchaves/IRC-Store" target="_blank" rel="noopener noreferrer">
+          <Link href="https://irc-store.vercel.app/" target="_blank" rel="noopener noreferrer">
             <CardProjects
               srcImage='/app-ecommerce.png'
               alt=''
