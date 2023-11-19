@@ -12,7 +12,7 @@ const CardProjects = ({ srcImage, alt, title, subTitle }: any) => {
                 sizes="100vw"
                 className='max-h-[100%] max-w-[100%] h-[100%] w-[100%]'
                 style={{
-                    objectFit: "contain",
+                    objectFit: "cover",
                   }}
             />
             </div>
