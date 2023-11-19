@@ -60,15 +60,15 @@ export default function Home() {
             <CardProjects
               srcImage='/app-ecommerce.png'
               alt=''
-              title='App de E-Commerce'
+              title='IRC Store'
               subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL e Tailwind'
             />
           </Link>
           <CardProjects
-            srcImage="/em-breve.jpg"
+            srcImage="/zfit.png"
             alt="breve"
-            title="Lorem Ipsum"
-            subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry." l
+            title="ZFit"
+            subTitle="Projeto em desenvolvimento, usando: React, Next.js, TypeScript, Prisma, PostgreSQL e Tailwind" l
           />
           <CardProjects
             srcImage="/em-breve.jpg"
