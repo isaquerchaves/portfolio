@@ -64,12 +64,14 @@ export default function Home() {
               subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL e Tailwind'
             />
           </Link>
-          <CardProjects
-            srcImage="/zfit.png"
-            alt="breve"
-            title="ZFit"
-            subTitle="Projeto em desenvolvimento, usando: React, Next.js, TypeScript, Prisma, PostgreSQL e Tailwind" l
-          />
+          <Link href="https://zfit.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <CardProjects
+              srcImage="/zfit.png"
+              alt="breve"
+              title="ZFit"
+              subTitle="Projeto em desenvolvimento, usando: React, Next.js, TypeScript, Prisma, PostgreSQL e Tailwind" l
+            />
+          </Link>
           <CardProjects
             srcImage="/em-breve.jpg"
             alt="breve"
