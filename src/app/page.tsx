@@ -73,17 +73,19 @@ export default function Home() {
             />
           </Link>
           <CardProjects
-            srcImage="/em-breve.jpg"
+            srcImage="/dog.png"
             alt="breve"
-            title="Lorem Ipsum"
-            subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry." l
+            title="Dog - Rede Social"
+            subTitle="Projeto em desenvolvimento, usando: React, React Router Dom, Typescript e API REST" l
           />
-          <CardProjects
-            srcImage="/em-breve.jpg"
-            alt="breve"
-            title="Lorem Ipsum"
-            subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry." l
-          />
+          <Link href="https://advogado-geovane-benigno.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <CardProjects
+              srcImage="/geovane-advogado.png"
+              alt="geovane-advogado"
+              title="Geovane Cesário Advogado"
+              subTitle="Tecnologias: HTML, CSS, React, TypeScript e Vite" l
+            />
+          </Link>
           <CardProjects
             srcImage="/em-breve.jpg"
             alt="breve"
@@ -135,7 +137,7 @@ export default function Home() {
       </section>
       <section id='minhas-skills' className='px-28 py-20 flex flex-col items-center gap-10'>
         <h1>Minhas Skills</h1>
-        <div className='flex flex-row flex-wrap justify-between gap-10'>
+        <div className='flex flex-row flex-wrap justify-center gap-10'>
           <div className='flex justify-center w-[150px] y-[150px] p-5 bg-[#212121] border border-[#333333]'>
             <Image
               src='/html.svg'
@@ -168,7 +170,7 @@ export default function Home() {
               height={80}
             />
           </div>
-          <div className='flex justify-center w-[150px] y-[150px] p-5 bg-[#212121] border border-[#333333]'>
+          <div className='flex justify-center w-[150px] y-[150px] min-h-[121px] p-5 bg-[#212121] border border-[#333333]'>
             <Image
               src='/react.svg'
               alt='React'
@@ -176,12 +178,12 @@ export default function Home() {
               height={80}
             />
           </div>
-          <div className='flex justify-center w-[150px] y-[150px] p-5 bg-[#212121] border border-[#333333]'>
+          <div className='flex justify-center w-[150px] y-[150px] min-h-[125.6px] p-5 bg-[#212121] border border-[#333333]'>
             <Image
-              src='/next.png'
+              src='/nextjs.svg'
               alt='Next'
               width={80}
-              height={48}
+              height={80}
             />
           </div>
         </div>
