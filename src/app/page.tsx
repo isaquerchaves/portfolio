@@ -60,7 +60,7 @@ export default function Home() {
             <CardProjects
               srcImage='/app-ecommerce.png'
               alt=''
-              title='IRC Store'
+              title='IRC Store - (Desktop/Mobile)'
               subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL e Tailwind'
             />
           </Link>
@@ -68,7 +68,7 @@ export default function Home() {
             <CardProjects
               srcImage="/zfit.png"
               alt="breve"
-              title="ZFit"
+              title="ZFit - (Mobile)"
               subTitle="Projeto em desenvolvimento, usando: React, Next.js, TypeScript, Prisma, PostgreSQL e Tailwind" l
             />
           </Link>
@@ -76,7 +76,7 @@ export default function Home() {
             <CardProjects
               srcImage="/dog.png"
               alt="breve"
-              title="Dog - Rede Social"
+              title="Dog | Rede Social - (Desktop/Mobile)"
               subTitle="Projeto em desenvolvimento, usando: React, React Router Dom, Typescript e API REST" l
             />
           </Link>
@@ -84,20 +84,20 @@ export default function Home() {
             <CardProjects
               srcImage="/geovane-advogado.png"
               alt="geovane-advogado"
-              title="Geovane Cesário Advogado"
+              title="Geovane Cesário Advogado - (Desktop/Mobile)"
               subTitle="Tecnologias: HTML, CSS, React, TypeScript e Vite" l
             />
           </Link>
           <CardProjects
             srcImage="/em-breve.jpg"
             alt="breve"
-            title="Lorem Ipsum"
+            title="Em Breve"
             subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry." l
           />
           <CardProjects
             srcImage="/em-breve.jpg"
             alt="breve"
-            title="Lorem Ipsum"
+            title="Em Breve"
             subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry." l
           />
         </div>
