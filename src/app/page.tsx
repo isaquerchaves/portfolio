@@ -64,6 +64,14 @@ export default function Home() {
               subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL e Tailwind'
             />
           </Link>
+          <Link href="https://advogado-geovane-benigno.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <CardProjects
+              srcImage="/geovane-advogado.png"
+              alt="geovane-advogado"
+              title="Geovane Cesário Advogado - (Desktop/Mobile)"
+              subTitle="Tecnologias: HTML, CSS, React, TypeScript e Vite"
+            />
+          </Link>
           <Link href="https://zfit.vercel.app/" target="_blank" rel="noopener noreferrer">
             <CardProjects
               srcImage="/zfit.png"
@@ -78,14 +86,6 @@ export default function Home() {
               alt="breve"
               title="Dog | Rede Social - (Desktop/Mobile)"
               subTitle="Projeto em desenvolvimento, usando: React, React Router Dom, Typescript e API REST"
-            />
-          </Link>
-          <Link href="https://advogado-geovane-benigno.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <CardProjects
-              srcImage="/geovane-advogado.png"
-              alt="geovane-advogado"
-              title="Geovane Cesário Advogado - (Desktop/Mobile)"
-              subTitle="Tecnologias: HTML, CSS, React, TypeScript e Vite"
             />
           </Link>
           <CardProjects
