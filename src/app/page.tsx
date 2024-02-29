@@ -69,7 +69,7 @@ export default function Home() {
               srcImage="/zfit.png"
               alt="breve"
               title="ZFit - (Mobile)"
-              subTitle="Projeto em desenvolvimento, usando: React, Next.js, TypeScript, Prisma, PostgreSQL e Tailwind" l
+              subTitle="Projeto em desenvolvimento, usando: React, Next.js, TypeScript, Prisma, PostgreSQL e Tailwind"
             />
           </Link>
           <Link href="https://rede-social-dog.vercel.app/login" target="_blank" rel="noopener noreferrer">
@@ -77,7 +77,7 @@ export default function Home() {
               srcImage="/dog.png"
               alt="breve"
               title="Dog | Rede Social - (Desktop/Mobile)"
-              subTitle="Projeto em desenvolvimento, usando: React, React Router Dom, Typescript e API REST" l
+              subTitle="Projeto em desenvolvimento, usando: React, React Router Dom, Typescript e API REST"
             />
           </Link>
           <Link href="https://advogado-geovane-benigno.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -85,20 +85,20 @@ export default function Home() {
               srcImage="/geovane-advogado.png"
               alt="geovane-advogado"
               title="Geovane Cesário Advogado - (Desktop/Mobile)"
-              subTitle="Tecnologias: HTML, CSS, React, TypeScript e Vite" l
+              subTitle="Tecnologias: HTML, CSS, React, TypeScript e Vite"
             />
           </Link>
           <CardProjects
             srcImage="/em-breve.jpg"
             alt="breve"
             title="Em Breve"
-            subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry." l
+            subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
           />
           <CardProjects
             srcImage="/em-breve.jpg"
             alt="breve"
             title="Em Breve"
-            subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry." l
+            subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
           />
         </div>
       </section>
