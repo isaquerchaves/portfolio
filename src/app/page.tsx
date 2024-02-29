@@ -72,7 +72,7 @@ export default function Home() {
               subTitle="Projeto em desenvolvimento, usando: React, Next.js, TypeScript, Prisma, PostgreSQL e Tailwind" l
             />
           </Link>
-          <Link href="https://rede-social-dog.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <Link href="https://rede-social-dog.vercel.app/login" target="_blank" rel="noopener noreferrer">
             <CardProjects
               srcImage="/dog.png"
               alt="breve"
