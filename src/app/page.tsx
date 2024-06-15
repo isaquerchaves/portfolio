@@ -29,8 +29,10 @@ export default function Home() {
       </section>
       <section id='sobre-mim' className='px-4 md:px-8 lg:px-16 xl:px-28 pt-8 flex flex-col items-center gap-10'>
         <h1 className='text-center'>Sobre mim</h1>
-        <p className='opacity-70 text-base text-center px-4 md:px-20 leading-8'>
-          Meu nome é Isaque Ramos Chaves, sou formado em Sistemas de Informação pela Facimp Wyden e atualmente atuo como analista de dados na Escola Conquer. No entanto, estou direcionando minha carreira para o campo do Front-End. Possuo experiência em HTML, CSS, JavaScript, TypeScript, React, Next e Tailwind. Estou ansioso para continuar a minha jornada no universo do Front-End, contribuindo com minha paixão pelo design e usabilidade em projetos digitais.
+        <p className='opacity-70 text-base text-justify px-4 leading-8 md:px-20 md:text-center'>
+        Graduado em Sistemas de Informação pela Facimp Wyden, mergulhei de cabeça na paixão pela tecnologia. Minha caixa de ferramentas contém NextJs, ReactJs, Typescript, Tailwind, Styled Components, Go e a metodologia SCRUM. Além disso, possuo um amplo conhecimento em banco de dados relacional (MySQL e PostgreSQL) e não relacional (MongoDB).
+        <br />
+        Gosto de sempre buscar a evolução, enriquecendo meus conhecimentos para contribuir ainda mais com minha equipe, sempre pronto para ajudar onde for necessário.
         </p>
         <div className='flex flex-col flex-wrap md:flex-row justify-center md:justify-around gap-4 md:gap-20 py-8 md:py-16'>
           <CardInfos
