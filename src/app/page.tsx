@@ -41,14 +41,16 @@ export default function Home() {
             subTitle="Isaque Ramos Chaves"
           />
           <CardInfos
+            type="link"
+            srcImage="/linkedin.svg"
+            title="Linkedin"
+            subTitle="Ir para linkedin"
+            className="p-7"
+          />
+          <CardInfos
             srcImage="/mail.svg"
             title="E-mail"
             subTitle="isaque.ramosch@gmail.com"
-          />
-          <CardInfos
-            srcImage="/instagram.svg"
-            title="Instagram"
-            subTitle="@isaquechaves_"
           />
           <CardInfos
             srcImage="/phone.svg"
