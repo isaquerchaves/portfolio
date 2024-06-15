@@ -3,14 +3,14 @@ import CardInfos from '@/components/ui/card-infos'
 import CardProjects from '@/components/ui/card-projects'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 
 export default function Home() {
-  const scrollToContact = () => {
-    const contactSection = document.getElementById('contact-section');
-    if (contactSection) {
-        contactSection.scrollIntoView({ behavior: 'smooth' });
-    }
-};
+  const router = useRouter();
+
+  const hancleClick = () => {
+    router.push('/#contact-section')
+  }
 
   return (
     <div className=''>
@@ -30,7 +30,7 @@ export default function Home() {
             </a>
             <button
                 className='m-0 p-2 md:p-4 bg-[#171717] border border-[#333333] hover:bg-green-500 hover:text-black'
-                onClick={scrollToContact}
+                onClick={hancleClick}
             >
                 Entre em Contato
             </button>
