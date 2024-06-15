@@ -9,7 +9,7 @@ export default function Home() {
   const router = useRouter();
 
   const hancleClick = () => {
-    router.push('/#contact-section')
+    router.push('/#sobre-mim')
   }
 
   return (
@@ -45,7 +45,7 @@ export default function Home() {
         <br />
         Gosto de sempre buscar a evolução, enriquecendo meus conhecimentos para contribuir ainda mais com minha equipe, sempre pronto para ajudar onde for necessário.
         </p>
-        <div id="contact-section" className='flex flex-col flex-wrap md:flex-row justify-center pt-12 md:justify-around gap-4 md:gap-20 py-8 md:pt-16'>
+        <div className='flex flex-col flex-wrap md:flex-row justify-center pt-12 md:justify-around gap-4 md:gap-20 py-8 md:pt-16'>
           <CardInfos
             srcImage="/smile.svg"
             title="Meu Nome"
