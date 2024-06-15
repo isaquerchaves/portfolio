@@ -15,9 +15,11 @@ export default function Home() {
             Desenvolvedor Front-End
           </p>
           <div className='flex justify-center md:justify-start gap-4 mt-4 md:mt-0'>
-            <button className='m-0 p-2 md:p-4 bg-green-500 text-black hover:bg-[#171717] hover:text-white'>
+            <a href="./Isaque Chaves - Currículo.pdf" download>
+              <button className='m-0 p-2 md:p-4 bg-green-500 text-black hover:bg-[#171717] hover:text-white'>
               Download CSV
             </button>
+            </a>
             <button className='m-0 p-2 md:p-4 bg-[#171717] border border-[#333333] hover:bg-green-500 hover:text-black'>
               Entre em Contato
             </button>
