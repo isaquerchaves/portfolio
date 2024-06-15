@@ -16,6 +16,20 @@ const Header: React.FC = () => {
       setShowSidebar(false);
     };
 
+    // Remove Sidebar quando clica fora dele
+    useEffect(() => {
+      const handleClickOutside = (event: MouseEvent) => {
+        if (sidebarRef.current && !sidebarRef.current.contains(event.target as Node)) {
+          setShowSidebar(false);
+        }
+      };
+      
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
+    }, []);
+
     useEffect(() => {
       // Função para verificar o tamanho da tela e atualizar o estado
       const checkScreenSize = () => {
