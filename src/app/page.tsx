@@ -1,9 +1,17 @@
+"use client"
 import CardInfos from '@/components/ui/card-infos'
 import CardProjects from '@/components/ui/card-projects'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact-section');
+    if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+};
+
   return (
     <div className=''>
       <section className='px-4 sm:px-8 md:px-16 lg:px-24 xl:px-28 py-8 md:py-12 lg:py-16 xl:py-20 flex flex-col md:flex-row justify-between items-center'>
@@ -20,8 +28,11 @@ export default function Home() {
               Download CSV
             </button>
             </a>
-            <button className='m-0 p-2 md:p-4 bg-[#171717] border border-[#333333] hover:bg-green-500 hover:text-black'>
-              Entre em Contato
+            <button
+                className='m-0 p-2 md:p-4 bg-[#171717] border border-[#333333] hover:bg-green-500 hover:text-black'
+                onClick={scrollToContact}
+            >
+                Entre em Contato
             </button>
           </div>
         </div>
@@ -34,7 +45,7 @@ export default function Home() {
         <br />
         Gosto de sempre buscar a evolução, enriquecendo meus conhecimentos para contribuir ainda mais com minha equipe, sempre pronto para ajudar onde for necessário.
         </p>
-        <div className='flex flex-col flex-wrap md:flex-row justify-center md:justify-around gap-4 md:gap-20 py-8 md:py-16'>
+        <div id="contact-section" className='flex flex-col flex-wrap md:flex-row justify-center md:justify-around gap-4 md:gap-20 py-8 md:py-16'>
           <CardInfos
             srcImage="/smile.svg"
             title="Meu Nome"
