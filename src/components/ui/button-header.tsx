@@ -1,10 +1,13 @@
-import { useRouter } from 'next/navigation';  // Altere a declaração de importação
+import { useRouter } from 'next/navigation';
 
-const HeaderButton = ({ conteudo, scrollTargetId }: any) => {
+const HeaderButton = ({ conteudo, scrollTargetId, onClick }: any) => {
   const router = useRouter();
 
   const handleClick = () => {
     router.push(`#${scrollTargetId}`);
+    if (onClick) {
+      onClick();
+    }
   };
 
   return (
@@ -15,6 +18,6 @@ const HeaderButton = ({ conteudo, scrollTargetId }: any) => {
       {conteudo}
     </button>
   );
-}
+};
 
 export default HeaderButton;
