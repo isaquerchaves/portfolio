@@ -71,7 +71,7 @@ const Header: React.FC = () => {
               </div>
             ) : (
               <div className="flex flex-row justify-between items-center text-xl px-4 md:px-8 lg:px-16 py-4 md:py-6 ">
-                <p className="text-2xl font-bold mb-4 md:text-2xl lg:text-3xl xl:text-4xl md:mb-0 md:mr-4">Portfólio</p>
+                <p className="text-2xl font-bold md:text-2xl lg:text-3xl xl:text-4xl">Portfólio</p>
                 <button onClick={toggleSidebar}> <AlignJustify /> </button>
               </div>
             )}
