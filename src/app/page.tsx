@@ -13,8 +13,8 @@ export default function Home() {
   }
 
   return (
-    <div className=''>
-      <section className='px-4 sm:px-8 md:px-16 lg:px-24 xl:px-28 py-8 md:py-12 lg:py-16 xl:py-20 flex flex-col md:flex-row justify-between items-center'>
+    <div className='pt-12'>
+      <section className='px-4 sm:px-8 md:px-16 lg:px-24 xl:px-28 pt-8 md:pt-12 lg:pt-16 flex flex-col md:flex-row justify-between items-center'>
         <div className='flex flex-col gap-4 text-center items-start md:text-left'>
           <h1 className='text-left '>
             Olá, eu sou o <br />Isaque Chaves :)
@@ -38,14 +38,14 @@ export default function Home() {
         </div>
         <img src="./isaque-img.png" alt="" className='mt-4 md:mt-0' />
       </section>
-      <section id='sobre-mim' className='px-4 md:px-8 lg:px-16 xl:px-28 pt-8 flex flex-col items-center gap-10'>
+      <section id='sobre-mim' className='px-4 md:px-8 lg:px-16 xl:px-28 pt-24 flex flex-col items-center gap-10'>
         <h1 className='text-center'>Sobre mim</h1>
         <p className='opacity-70 text-base text-justify px-4 leading-8 md:px-20 md:text-center'>
         Graduado em Sistemas de Informação pela Facimp Wyden, mergulhei de cabeça na paixão pela tecnologia. Minha caixa de ferramentas contém NextJs, ReactJs, Typescript, Tailwind, Styled Components, Go e a metodologia SCRUM. Além disso, possuo um amplo conhecimento em banco de dados relacional (MySQL e PostgreSQL) e não relacional (MongoDB).
         <br />
         Gosto de sempre buscar a evolução, enriquecendo meus conhecimentos para contribuir ainda mais com minha equipe, sempre pronto para ajudar onde for necessário.
         </p>
-        <div id="contact-section" className='flex flex-col flex-wrap md:flex-row justify-center md:justify-around gap-4 md:gap-20 py-8 md:py-16'>
+        <div id="contact-section" className='flex flex-col flex-wrap md:flex-row justify-center pt-12 md:justify-around gap-4 md:gap-20 py-8 md:pt-16'>
           <CardInfos
             srcImage="/smile.svg"
             title="Meu Nome"
@@ -70,7 +70,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section id='projetos' className='px-28 pt-8 flex flex-col items-center gap-10'>
+      <section id='projetos' className='px-28 pt-20 flex flex-col items-center gap-10 md:pt-24'>
         <h1>Projetos</h1>
         <div className='flex flex-wrap items-center justify-center gap-7 xl:w-[1410px]'>
           <Link href="https://irc-store.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -119,7 +119,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section id='servicos' className='px-28 pt-20 flex flex-col items-center gap-10'>
+      <section id='servicos' className='px-28 pt-24 flex flex-col items-center gap-10 md:pt-20'>
         <h1>Serviços</h1>
         <div className='flex flex-row justify-around gap-10 flex-wrap'>
           <div className='service'>
