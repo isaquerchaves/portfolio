@@ -3,14 +3,12 @@ import CardInfos from '@/components/ui/card-infos'
 import CardProjects from '@/components/ui/card-projects'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
 
 export default function Home() {
-  const router = useRouter();
 
-  const hancleClick = () => {
-    router.push('/#sobre-mim')
-  }
+  const handleClick = () => {
+      window.open("https://www.linkedin.com/in/isaque-chaves-a591aa141/", '_blank');
+  };
 
   return (
     <div className='pt-12'>
@@ -30,7 +28,7 @@ export default function Home() {
             </a>
             <button
                 className='m-0 p-2 md:p-4 bg-[#171717] border border-[#333333] hover:bg-green-500 hover:text-black'
-                onClick={hancleClick}
+                onClick={handleClick}
             >
                 Entre em Contato
             </button>
