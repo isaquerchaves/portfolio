@@ -79,15 +79,23 @@ export default function Home() {
               subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL e Tailwind'
             />
           </Link>
+          <Link href="https://ifood-clone-gray.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <CardProjects
+              srcImage='/ifood.png'
+              alt=''
+              title='Ifood Clone - (Mobile)'
+              subTitle='Tecnologias: React, Next.js, TypeScript, Tailwind, Golang, Gin, Gorm e PostgreSQL'
+            />
+          </Link>
           <Link href="https://advogado-geovane-benigno.vercel.app/" target="_blank" rel="noopener noreferrer">
             <CardProjects
               srcImage="/geovane-advogado.png"
-              alt="geovane-advogado"
-              title="Geovane Cesário Advogado - (Desktop/Mobile)"
-              subTitle="Tecnologias: HTML, CSS, React, TypeScript e Vite"
+              alt="advogado"
+              title="Advocacia - (Desktop/Mobile)"
+              subTitle="Tecnologias: React e TypeScript"
             />
           </Link>
-          <Link href="https://zfit.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <Link href="https://github.com/isaquerchaves/z-fit" target="_blank" rel="noopener noreferrer">
             <CardProjects
               srcImage="/zfit.png"
               alt="breve"
@@ -95,7 +103,7 @@ export default function Home() {
               subTitle="Projeto em desenvolvimento, usando: React, Next.js, TypeScript, Prisma, PostgreSQL e Tailwind"
             />
           </Link>
-          <Link href="" target="_blank" rel="noopener noreferrer">
+          <Link href="https://github.com/isaquerchaves/dogs" target="_blank" rel="noopener noreferrer">
             <CardProjects
               srcImage="/dog.png"
               alt="breve"
@@ -103,12 +111,6 @@ export default function Home() {
               subTitle="Projeto em desenvolvimento, usando: React, React Router Dom, Typescript e API REST"
             />
           </Link>
-          <CardProjects
-            srcImage="/em-breve.jpg"
-            alt="breve"
-            title="Em Breve"
-            subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-          />
           <CardProjects
             srcImage="/em-breve.jpg"
             alt="breve"

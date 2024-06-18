@@ -10,13 +10,13 @@ const CardProjects = ({ srcImage, alt, title, subTitle }: any) => {
                     height={200}
                     width={300}
                     sizes="100vw"
-                    className='max-h-[100%] max-w-[100%] h-[100%] w-[100%]'
+                    className='max-h-[100%] max-w-[100%] h-[100%] w-[100%] object-fill'
                     style={{
                     }}
                 />
             </div>
 
-            <div className='flex flex-col items-start '>
+            <div className='flex flex-col items-start w-full'>
                 <h5>{title}</h5>
                 <p className='opacity-70'>{subTitle}</p>
             </div>
