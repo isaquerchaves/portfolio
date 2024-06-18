@@ -4,26 +4,19 @@ Bem-vindo ao meu portfólio! Este repositório contém o código-fonte do meu po
 
 ## Sobre Mim
 
-Meu nome é Isaque Chaves, sou Analista de Dados na Escola Conquer e também um entusiasta de tecnologia apaixonado por desenvolvimento web. Com formação em Sistemas de Formação, estou constantemente buscando aprimorar minhas habilidades e explorar novas tecnologias.
+Graduado em Sistemas de Informação pela Facimp Wyden, mergulhei de cabeça na paixão pela tecnologia. Minha caixa de ferramentas contém NextJs, ReactJs, Typescript, Tailwind, Styled Components, Go e a metodologia SCRUM. Além disso, possuo um amplo conhecimento em banco de dados relacional (MySQL e PostgreSQL) e não relacional (MongoDB).
+
+Gosto de sempre buscar a evolução, enriquecendo meus conhecimentos para contribuir ainda mais com minha equipe, sempre pronto para ajudar onde for necessário.
 
 ## Tecnologias mais utilizadas
 
+- Golang
 - HTML5
 - CSS3
-- JavaScript
 - React
-- Typescript
 - Next.JS
+- Typescript
 - Tailwind
-
-## Como Rodar os Projetos Localmente
-
-Se você quiser executar os projetos localmente, siga estas instruções:
-
-1. Clone este repositório: `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
-2. Navegue até o diretório do projeto: `cd nome-do-repositorio/projeto-especifico`
-3. Instale as dependências: `npm install` ou `yarn install`
-4. Execute o projeto: `npm start` ou `yarn start`
 
 ## Contato
 
