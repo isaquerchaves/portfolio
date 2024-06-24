@@ -1,6 +1,7 @@
 "use client"
 import CardInfos from '@/components/ui/card-infos'
 import CardProjects from '@/components/ui/card-projects'
+import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -70,62 +71,65 @@ export default function Home() {
       </section>
       <section id='projetos' className='px-28 pt-20 flex flex-col items-center gap-10 md:pt-24'>
         <h1>Projetos</h1>
-        <div className='flex flex-row items-center gap-7 overflow-x-auto [&::-webkit-scrollbar]:hidden max-w-[380px] md:max-w-[1400px]'>
-          <Link href="https://irc-store.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <CardProjects
-              srcImage='/app-ecommerce.png'
-              alt=''
-              title='IRC Store - (Desktop/Mobile)'
-              subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL e Tailwind'
-            />
-          </Link>
-          <Link href="https://github.com/isaquerchaves/movies/" target="_blank" rel="noopener noreferrer">
-            <CardProjects
-              srcImage="/movies-app.jpeg"
-              alt="App de filmes"
-              title="App Movies - (React Native)"
-              subTitle="Tecnologias: React Native, TypeScript, Axios e TMDB API"
-            />
-          </Link>
-          <Link href="https://ifood-clone-gray.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <CardProjects
-              srcImage='/ifood.png'
-              alt=''
-              title='Ifood Clone - (Mobile)'
-              subTitle='Tecnologias: React, Next.js, TypeScript, Tailwind, Golang, Gin, Gorm e PostgreSQL'
-            />
-          </Link>
-          <Link href="https://github.com/isaquerchaves/z-fit" target="_blank" rel="noopener noreferrer">
-            <CardProjects
-              srcImage="/zfit.png"
-              alt="breve"
-              title="ZFit - (Mobile)"
-              subTitle="Projeto em desenvolvimento, usando: React, Next.js, TypeScript, Prisma, PostgreSQL e Tailwind"
-            />
-          </Link>
-          <Link href="https://advogado-geovane-benigno.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <CardProjects
-              srcImage="/geovane-advogado.png"
-              alt="advogado"
-              title="Advocacia - (Desktop/Mobile)"
-              subTitle="Tecnologias: React e TypeScript"
-            />
-          </Link>
-          <Link href="https://github.com/isaquerchaves/dogs" target="_blank" rel="noopener noreferrer">
-            <CardProjects
-              srcImage="/dog.png"
-              alt="breve"
-              title="Dog | Rede Social - (Desktop/Mobile)"
-              subTitle="Projeto em desenvolvimento, usando: React, React Router Dom, Typescript e API REST"
-            />
-          </Link>
-          <CardProjects
-            srcImage="/em-breve.jpg"
-            alt="breve"
-            title="Em Breve"
-            subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-          />
-        </div>
+        <ScrollArea className="max-w-[380px] md:max-w-[1400px] rounded-md border">
+          <div className="flex gap-7">
+              <Link href="https://irc-store.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <CardProjects
+                  srcImage='/app-ecommerce.png'
+                  alt=''
+                  title='IRC Store - (Desktop/Mobile)'
+                  subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL e Tailwind'
+                />
+              </Link>
+              <Link href="https://github.com/isaquerchaves/movies/" target="_blank" rel="noopener noreferrer">
+                <CardProjects
+                  srcImage="/movies-app.jpeg"
+                  alt="App de filmes"
+                  title="App Movies - (React Native)"
+                  subTitle="Tecnologias: React Native, TypeScript, Axios e TMDB API"
+                />
+              </Link>
+              <Link href="https://ifood-clone-gray.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <CardProjects
+                  srcImage='/ifood.png'
+                  alt=''
+                  title='Ifood Clone - (Mobile)'
+                  subTitle='Tecnologias: React, Next.js, TypeScript, Tailwind, Golang, Gin, Gorm e PostgreSQL'
+                />
+              </Link>
+              <Link href="https://github.com/isaquerchaves/z-fit" target="_blank" rel="noopener noreferrer">
+                <CardProjects
+                  srcImage="/zfit.png"
+                  alt="breve"
+                  title="ZFit - (Mobile)"
+                  subTitle="Projeto em desenvolvimento, usando: React, Next.js, TypeScript, Prisma, PostgreSQL e Tailwind"
+                />
+              </Link>
+              <Link href="https://advogado-geovane-benigno.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <CardProjects
+                  srcImage="/geovane-advogado.png"
+                  alt="advogado"
+                  title="Advocacia - (Desktop/Mobile)"
+                  subTitle="Tecnologias: React e TypeScript"
+                />
+              </Link>
+              <Link href="https://github.com/isaquerchaves/dogs" target="_blank" rel="noopener noreferrer">
+                <CardProjects
+                  srcImage="/dog.png"
+                  alt="breve"
+                  title="Dog | Rede Social - (Desktop/Mobile)"
+                  subTitle="Projeto em desenvolvimento, usando: React, React Router Dom, Typescript e API REST"
+                />
+              </Link>
+              <CardProjects
+                srcImage="/em-breve.jpg"
+                alt="breve"
+                title="Em Breve"
+                subTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              />
+            </div>
+          <ScrollBar orientation="horizontal" />
+        </ScrollArea>
       </section>
       <section id='servicos' className='px-28 pt-24 flex flex-col items-center gap-10 md:pt-20'>
         <h1>Serviços</h1>
