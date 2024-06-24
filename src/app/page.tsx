@@ -70,13 +70,21 @@ export default function Home() {
       </section>
       <section id='projetos' className='px-28 pt-20 flex flex-col items-center gap-10 md:pt-24'>
         <h1>Projetos</h1>
-        <div className='flex flex-wrap items-center justify-center gap-7 xl:w-[1410px]'>
+        <div className='flex flex-row items-center gap-7 overflow-x-auto [&::-webkit-scrollbar]:hidden max-w-[380px] md:max-w-[1400px]'>
           <Link href="https://irc-store.vercel.app/" target="_blank" rel="noopener noreferrer">
             <CardProjects
               srcImage='/app-ecommerce.png'
               alt=''
               title='IRC Store - (Desktop/Mobile)'
               subTitle='Tecnologias: React, Next.js, NextAuth.js (com login via Google), TypeScript, Prisma, PostgreSQL e Tailwind'
+            />
+          </Link>
+          <Link href="https://github.com/isaquerchaves/movies/" target="_blank" rel="noopener noreferrer">
+            <CardProjects
+              srcImage="/movies-app.jpeg"
+              alt="App de filmes"
+              title="App Movies - (React Native)"
+              subTitle="Tecnologias: React Native, TypeScript, Axios e TMDB API"
             />
           </Link>
           <Link href="https://ifood-clone-gray.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -87,20 +95,20 @@ export default function Home() {
               subTitle='Tecnologias: React, Next.js, TypeScript, Tailwind, Golang, Gin, Gorm e PostgreSQL'
             />
           </Link>
-          <Link href="https://advogado-geovane-benigno.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <CardProjects
-              srcImage="/geovane-advogado.png"
-              alt="advogado"
-              title="Advocacia - (Desktop/Mobile)"
-              subTitle="Tecnologias: React e TypeScript"
-            />
-          </Link>
           <Link href="https://github.com/isaquerchaves/z-fit" target="_blank" rel="noopener noreferrer">
             <CardProjects
               srcImage="/zfit.png"
               alt="breve"
               title="ZFit - (Mobile)"
               subTitle="Projeto em desenvolvimento, usando: React, Next.js, TypeScript, Prisma, PostgreSQL e Tailwind"
+            />
+          </Link>
+          <Link href="https://advogado-geovane-benigno.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <CardProjects
+              srcImage="/geovane-advogado.png"
+              alt="advogado"
+              title="Advocacia - (Desktop/Mobile)"
+              subTitle="Tecnologias: React e TypeScript"
             />
           </Link>
           <Link href="https://github.com/isaquerchaves/dogs" target="_blank" rel="noopener noreferrer">
