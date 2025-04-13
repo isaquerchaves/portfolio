@@ -18,7 +18,7 @@ const CardProjects = ({ srcImage, alt, title, subTitle }: any) => {
 
             <div className='flex flex-col items-start w-full'>
                 <h5>{title}</h5>
-                <p className='opacity-70'>{subTitle}</p>
+                <p className='opacity-70 text-start'>{subTitle}</p>
             </div>
         </div>
     );
